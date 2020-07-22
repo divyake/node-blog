@@ -8,7 +8,7 @@ const dompurify = createDomPurify(new JSDOM().window)
 const articleSchema = new mongoose.Schema({
   title: {
     type: String,
-    required: true
+    required: true,
   },
   description: {
     type: String
